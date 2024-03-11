@@ -1,0 +1,102 @@
+{
+    "Any Category": {
+        "id": "None",
+        "number_of_questions": 50
+    },
+    "General Knowledge": {
+        "id": 9,
+        "number_of_questions": 50
+    },
+    "Entertainment: Books": {
+        "id": 10,
+        "number_of_questions": 9
+    },
+    "Entertainment: Film": {
+        "id": 11,
+        "number_of_questions": 30
+    },
+    "Entertainment: Music": {
+        "id": 12,
+        "number_of_questions": 41
+    },
+    "Entertainment: Musicals & Theatres": {
+        "id": 13,
+        "number_of_questions": 2
+    },
+    "Entertainment: Television": {
+        "id": 14,
+        "number_of_questions": 18
+    },
+    "Entertainment: Video Games": {
+        "id": 15,
+        "number_of_questions": 50
+    },
+    "Entertainment: Board Games": {
+        "id": 16,
+        "number_of_questions": 8
+    },
+    "Science & Nature": {
+        "id": 17,
+        "number_of_questions": 34
+    },
+    "Science: Computers": {
+        "id": 18,
+        "number_of_questions": 35
+    },
+    "Science: Mathematics": {
+        "id": 19,
+        "number_of_questions": 18
+    },
+    "Mythology": {
+        "id": 20,
+        "number_of_questions": 10
+    },
+    "Sports": {
+        "id": 21,
+        "number_of_questions": 14
+    },
+    "Geography": {
+        "id": 22,
+        "number_of_questions": 42
+    },
+    "History": {
+        "id": 23,
+        "number_of_questions": 43
+    },
+    "Politics": {
+        "id": 24,
+        "number_of_questions": 18
+    },
+    "Art": {
+        "id": 25,
+        "number_of_questions": 6
+    },
+    "Celebrities": {
+        "id": 26,
+        "number_of_questions": 4
+    },
+    "Animals": {
+        "id": 27,
+        "number_of_questions": 22
+    },
+    "Vehicles": {
+        "id": 28,
+        "number_of_questions": 13
+    },
+    "Entertainment: Comics": {
+        "id": 29,
+        "number_of_questions": 4
+    },
+    "Science: Gadgets": {
+        "id": 30,
+        "number_of_questions": 3
+    },
+    "Entertainment: Japanese Anime & Manga": {
+        "id": 31,
+        "number_of_questions": 25
+    },
+    "Entertainment: Cartoon & Animations": {
+        "id": 32,
+        "number_of_questions": 10
+    }
+}
