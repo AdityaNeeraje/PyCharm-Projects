@@ -1,0 +1,325 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+.incog_player_img1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.incog_player_img2 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+.incog_player_img3 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+}
+
+.div1 {
+    height: 150px;
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.div1 img.person {
+    width: 130px;
+    height: 130px;
+}
+
+.div2 {
+    height: 150px;
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+
+.div2 img.person {
+    width: 130px;
+    height: 130px;
+}
+
+.div3 {
+    height: 150px;
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+}
+
+.div3 img.person {
+    width: 130px;
+    height: 130px;
+}
+
+div h3 {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    align: center;
+}
+
+.coin1 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+.coin2 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.coin3 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+.coin4 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.coin5 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.coin6 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+.coin7 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.coin8 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.coin9 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 15px;
+    left: -10px;
+}
+
+.coin10 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.coin11 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.coin12 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+.abilities {
+    width: 100px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#ability1 {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+#ability2 {
+    position: absolute;
+    top: 400px;
+    left: 340px;
+}
+
+#ability3 {
+    position: absolute;
+    top: 400px;
+    left: 480px;
+}
+
+#ability4 {
+    position: absolute;
+    top: 400px;
+    left: 620px;
+}
+
+#ability5 {
+    position: absolute;
+    top: 400px;
+    left: 760px;
+}
+
+#ability6 {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+#ability7 {
+    position: absolute;
+    top: 400px;
+    left: 1040px;
+}
+
+button img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#self_coin1 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 440px;
+}
+
+#self_coin2 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 460px;
+}
+
+#self_coin3 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 480px;
+}
+
+#self_coin4 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 500px;
+}
+
+#self_coin5 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 520px;
+}
+
+#self_coin6 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 540px;
+}
+
+#self_coin7 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 560px;
+}
+
+#self_coin8 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 580px;
+}
+
+#self_coin9 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 600px;
+}
+
+#self_coin10 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 620px;
+}
+
+#self_coin11 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 640px;
+}
+
+#self_coin12 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 600px;
+    left: 660px;
+}
+
+
+

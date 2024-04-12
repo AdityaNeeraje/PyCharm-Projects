@@ -1,0 +1,59 @@
+{
+    "10": {
+        "Any Category": 6,
+        "General Knowledge": 0,
+        "Entertainment: Film": 0,
+        "Entertainment: Music": 0,
+        "Entertainment: Television": 0,
+        "Entertainment: Video Games": 6,
+        "Science & Nature": 0,
+        "Science: Computers": 0,
+        "Science: Mathematics": 0,
+        "Mythology": 0,
+        "Sports": 0,
+        "Geography": 8,
+        "History": 0,
+        "Politics": 10,
+        "Animals": 0,
+        "Vehicles": 0,
+        "Entertainment: Japanese Anime & Manga": 0,
+        "Entertainment: Cartoon & Animations": 0
+    },
+    "20": {
+        "Any Category": 0,
+        "General Knowledge": 0,
+        "Entertainment: Film": 0,
+        "Entertainment: Music": 0,
+        "Entertainment: Video Games": 0,
+        "Science & Nature": 0,
+        "Science: Computers": 0,
+        "Geography": 0,
+        "History": 14,
+        "Animals": 0,
+        "Entertainment: Japanese Anime & Manga": 0
+    },
+    "30": {
+        "Any Category": 0,
+        "General Knowledge": 0,
+        "Entertainment: Film": 0,
+        "Entertainment: Music": 0,
+        "Entertainment: Video Games": 0,
+        "Science & Nature": 0,
+        "Science: Computers": 0,
+        "Geography": 0,
+        "History": 0
+    },
+    "40": {
+        "Any Category": 0,
+        "General Knowledge": 0,
+        "Entertainment: Music": 0,
+        "Entertainment: Video Games": 0,
+        "Geography": 0,
+        "History": 0
+    },
+    "50": {
+        "Any Category": 0,
+        "General Knowledge": 0,
+        "Entertainment: Video Games": 0
+    }
+}

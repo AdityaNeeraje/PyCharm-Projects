@@ -1,0 +1,25 @@
+Question 36 - Creating a Failure Array to speed up motif finding
+https://rosalind.info/problems/kmp/
+
+Question 34 - Error correction in reads
+https://rosalind.info/problems/corr/
+The program has to identify all the reads which are incorrect due to single point mutations, and also find the correct
+read from which the incorrect read was derived.
+Given: A collection of up to 1000 reads of equal length (at most 50 bp) in FASTA format.
+Return: A list of all corrections in the form "[old read]->[new read]". (Each correction must be a single symbol substitution, and you may return the corrections in any order.)
+
+Question 33 - Calculating Catalan Numbers for Secondary Structures
+https://rosalind.info/problems/cat/
+Given: An RNA string s having the same number of occurrences of 'A' as 'U' and the same number
+of occurrences of 'C' as 'G'. The length of the string is at most 300 bp.
+Return: The total number of noncrossing perfect matchings of basepair edges in the bonding graph of s,
+modulo 1,000,000.
+
+Question 25 - Genome Assembly as Shortest Substring
+https://rosalind.info/problems/long/
+Given: At most 50 DNA strings of approximately equal length, not exceeding 1 kbp, in FASTA format (which represent reads deriving from the same strand of a single linear chromosome).
+
+The dataset is guaranteed to satisfy the following condition: there exists a unique way to reconstruct the entire chromosome from these reads by gluing together pairs of reads that overlap by more than half their length.
+
+Return: A shortest superstring containing all the given strings (thus corresponding to a reconstructed chromosome).
+

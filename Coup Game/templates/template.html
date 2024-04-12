@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to the Coup Game, Player {{player_num}}</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body background="/static/Billiard%20Tablecloth.png">
+    <div class="div1">
+        <img class="person" src="/static/player_photo.png">
+        <h3 style='color: OrangeRed;'>{{players[0]}}</h3>
+        <img class="coin1" src="/static/Coin Image.png">
+        <img class="coin2" src="/static/Coin Image.png">
+        <img class="coin3" src="/static/Coin Image.png" hidden>
+        <img class="coin4" src="/static/Coin Image.png" hidden>
+        <img class="coin5" src="/static/Coin Image.png" hidden>
+        <img class="coin6" src="/static/Coin Image.png" hidden>
+        <img class="coin7" src="/static/Coin Image.png" hidden>
+        <img class="coin8" src="/static/Coin Image.png" hidden>
+        <img class="coin9" src="/static/Coin Image.png" hidden>
+        <img class="coin10" src="/static/Coin Image.png" hidden>
+        <img class="coin11" src="/static/Coin Image.png" hidden>
+        <img class="coin12" src="/static/Coin Image.png" hidden>
+    </div>
+    <div class="div2">
+        <img class="person" src="/static/player_photo.png">
+        <h3 style='color: Indigo;'>{{players[1]}}</h3>
+        <img class="coin1" src="/static/Coin Image.png">
+        <img class="coin2" src="/static/Coin Image.png">
+        <img class="coin3" src="/static/Coin Image.png" hidden>
+        <img class="coin4" src="/static/Coin Image.png" hidden>
+        <img class="coin5" src="/static/Coin Image.png" hidden>
+        <img class="coin6" src="/static/Coin Image.png" hidden>
+        <img class="coin7" src="/static/Coin Image.png" hidden>
+        <img class="coin8" src="/static/Coin Image.png" hidden>
+        <img class="coin9" src="/static/Coin Image.png" hidden>
+        <img class="coin10" src="/static/Coin Image.png" hidden>
+        <img class="coin11" src="/static/Coin Image.png" hidden>
+        <img class="coin12" src="/static/Coin Image.png" hidden>
+    </div>
+    <div class="div3">
+        <img class="person" src="/static/player_photo.png">
+        <h3 style='color: blue;'>{{players[2]}}</h3>
+        <img class="coin1" src="/static/Coin Image.png">
+        <img class="coin2" src="/static/Coin Image.png">
+        <img class="coin3" src="/static/Coin Image.png" hidden>
+        <img class="coin4" src="/static/Coin Image.png" hidden>
+        <img class="coin5" src="/static/Coin Image.png" hidden>
+        <img class="coin6" src="/static/Coin Image.png" hidden>
+        <img class="coin7" src="/static/Coin Image.png" hidden>
+        <img class="coin8" src="/static/Coin Image.png" hidden>
+        <img class="coin9" src="/static/Coin Image.png" hidden>
+        <img class="coin10" src="/static/Coin Image.png" hidden>
+        <img class="coin11" src="/static/Coin Image.png" hidden>
+        <img class="coin12" src="/static/Coin Image.png" hidden>
+    </div>
+    <img id="self_coin1" src="/static/Coin Image.png">
+    <img id="self_coin2" src="/static/Coin Image.png">
+    <img id = "self_coin3" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin4" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin5" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin6" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin7" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin8" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin9" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin10" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin11" src="/static/Coin Image.png" hidden>
+    <img id = "self_coin12" src="/static/Coin Image.png" hidden>
+    <button onclick="tax()" class="abilities" id="ability1"><img src="/static/Cards/Duke Card.png"></button>
+    <button class="abilities" id="ability2"><img src="/static/Cards/Assassin Card.jpeg"></button>
+    <button  class="abilities" id="ability3"><img src="/static/Cards/Ambassador Card.jpeg"></button>
+    <button  class="abilities" id="ability4"><img src="/static/Cards/Captain Card.jpg"></button>
+    <button  class="abilities" id="ability5"><img src="/static/Cards/Contessa Card.jpeg"></button>
+    <button  class="abilities" id="ability6"><img src="/static/Cards/Duke Card.png"></button>
+    <button  class="abilities" id="ability7"><img src="/static/Cards/Duke Card.png"></button>
+    <script>
+        function tax(){
+<!--        console.log('Entering tax func');-->
+<!--            var elements = document.getElementsByClass("abilities");-->
+<!--            for (var i = 0; i < elements.length(); i++){-->
+<!--                elements[i].disabled = true;-->
+<!--            }-->
+<!--        console.log('HERE');-->
+            fetch('/{{player_num}}/tax', {method: 'POST'})
+            .then(response=>response.json())
+<!--            var money = response['money'];-->
+<!--            for (var i = 2; i <= money; i++){-->
+<!--                document.getElementById('self_coin{{i}}').style.display = "block";-->
+<!--            }-->
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+    <!--    <img src="/static/player_photo.png" class="incog_player_img1">-->
+    <!--    <img src="/static/player_photo.png" class="incog_player_img2">-->
+    <!--    <img src="/static/player_photo.png" class="incog_player_img3">-->
+    <!--    {% set first_player = 1 %}-->
+    <!--    {% if first_player == player_num %}-->
+    <!--    {% set first_player = first_player + 1 %}-->
+    <!--    {% endif %}-->
+    <!--    <div><h3 align="center">{{ players[0] }}</h3></div>-->
+</body>
+</html>
